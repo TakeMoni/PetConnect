@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoption</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="icon" href="../img/Logo.png">
+    <script src="../JS/script.js"></script>
+</head>
+<body>
+
+
+    <div class="header">
+        <div class="logo-part-uno"> <img src="../img/Logo.png" alt="rip"> <p class="L-name">PetConnect</p></div><div class="logo-part-dos"> </div>
+        
+            <div class="navbar">
+                <nav> 
+                    <ul>
+                        <li> <a href="../index.html" > Home</a></li>
+                        <li> <a href="blog.html"> Blog</a></li>
+                        <li> <a href="adopt.html" class="active">Adoption</a></li>
+                        <li> <a href="shop.html"> Products</a></li>
+                        <li> <a href="about_us.html"> About Us</a></li>
+                    </ul>
+                </nav>
+                <div class="user-space">
+                    <img class="user-img" src="../img/user.png" alt="rip"> <p class="user-status"><a class="signin" href="sign-up.html">Sign-up </a></p>
+                </div>
+            </div>
+    </div>
+
+
+
+    
+    <div class="main-adopt">
+        <div class="filter">
+            <h1 class="filter-title">Refine your search</h1>
+            <div class="filter-section">
+                <h2 class="filter-subtitle">Search for a Pet</h2>
+                <div class="search-bar">
+                    <input type="text" placeholder="Enter pet name" class="search-input">
+                    <button class="search-button">Search</button>
+                </div>
+            </div>            
+            <div class="filter-section">
+                <h2 class="filter-subtitle">Pet Kind</h2>
+                <label>
+                    <input type="checkbox" name="cat" id="cat"> Cats
+                </label><br>
+                <label>
+                    <input type="checkbox" name="dog" id="dog"> Dogs
+                </label><br>
+                <label>
+                    <input type="checkbox" name="other" id="other"> Other
+                </label>
+            </div>
+            <hr class="filter-divider">
+            <div class="filter-section">
+                <h2 class="filter-subtitle">Neutered Status</h2>
+                <label>
+                    <input type="checkbox" name="neutered" id="neutered"> Neutered
+                </label><br>
+                <label>
+                    <input type="checkbox" name="not-neutered" id="not-neutered"> Not Neutered
+                </label>
+            </div>
+            
+            <hr class="filter-divider">
+            <div class="filter-section">
+                <h2 class="filter-subtitle">Age</h2>
+                <label>
+                    <input type="radio" name="age" value="puppy-kitten"> Puppy/Kitten (0-1 year)
+                </label><br>
+                <label>
+                    <input type="radio" name="age" value="adult"> Adult (1-7 years)
+                </label><br>
+                <label>
+                    <input type="radio" name="age" value="senior"> Senior (7+ years)
+                </label>                
+                </div>
+
+                <hr class="filter-divider">
+            <div class="filter-section">
+                <h2 class="filter-subtitle">Gender</h2>
+                    <label>
+                        <input type="radio" name="gender" value="male"> Male
+                    </label><br>
+                    <label>
+                        <input type="radio" name="gender" value="female"> Female
+                    </label>
+                </div>
+            
+        </div>
+    </div>
+
+    <div class="pet-listing">
+        <article class="pet-card">
+            <img src="../img/pet-1.jpg"  class="pet-image">
+            <div class="pet-info">
+                <div class="heart-container"> <img src="../img/heart.png" class="heart-icon"></div>
+                <h3 class="pet-name">Cali</h3>
+                <p class="pet-details"> Senior Female Dog</p>
+                <p class="pet-tagline"> </p>
+                <p class="pet-location"><span class="location-icon">📍</span> Unanderra, NSW</p>
+            </div>
+        </article>
+
+        <article class="pet-card">
+            <img src="../img/pet-2.jpg" class="pet-image">
+            <div class="pet-info">
+                <div class="heart-container"> <img src="../img/heart.png" class="heart-icon"></div>
+                <h3 class="pet-name">Sergei</h3>
+                <p class="pet-details"> Senior Male Dog</p>
+                <p class="pet-tagline"> </p>
+                <p class="pet-location"><span class="location-icon">📍</span> Bardo, TN</p>
+            </div>
+        </article>
+
+        <article class="pet-card">
+            <img src="../img/pet-3.jpg" a class="pet-image">
+            <div class="pet-info">
+                <div class="heart-container"> <img src="../img/heart.png" class="heart-icon"></div>
+                <h3 class="pet-name">Fluffy Felix</h3>
+                <p class="pet-details">Adult Male Cat</p>
+                <p class="pet-tagline"></p>
+                <p class="pet-location"><span class="location-icon">📍</span> Dartmouth, NS</p>
+            </div>
+        </article>
+
+        <article class="pet-card">
+            <img src="../img/pet-4.png"  class="pet-image">
+            <div class="pet-info">
+                <div class="heart-container"> <img src="../img/heart.png" class="heart-icon"></div>
+                <h3 class="pet-name">Ashtom</h3>
+                <p class="pet-details">Medium Male Cat</p>
+                <p class="pet-tagline"></p>
+                <p class="pet-location"><span class="location-icon">📍</span>  Dartmouth, NS</p>
+                
+            </div>
+        </article>
+
+        <article class="pet-card">
+            <img src="../img/pet-5.png" class="pet-image">
+            <div class="pet-info">
+                <div class="heart-container"> <img src="../img/heart.png" class="heart-icon"></div>
+                <h3 class="pet-name">Stokely</h3>
+                <p class="pet-details"> Young Female Cat</p>
+                <p class="pet-tagline"></p>
+                <p class="pet-location"><span class="location-icon">📍</span> Arthurette, NB</p>
+            
+            </div>
+        </article>
+        <article class="pet-card">
+            <img src="../img/pet-1.jpg" alt="Cali" class="pet-image">
+            <div class="pet-info">
+                <div class="heart-container"> <img src="../img/heart.png" class="heart-icon"></div>
+                <h3 class="pet-name">Cali</h3>
+                <p class="pet-details"> Medium Female Dog</p>
+                <p class="pet-tagline">Best Cuddle Buddy!</p>
+                <p class="pet-location"><span class="location-icon">📍</span> Unanderra, NSW</p>
+                <p class="adoption-note">Interstate adoption unavailable</p>
+            </div>
+        </article>
+
+        <article class="pet-card">
+            <img src="../img/pet-1.jpg" alt="Cali" class="pet-image">
+            <div class="pet-info">
+                <div class="heart-container"> <img src="../img/heart.png" class="heart-icon"></div>
+                <h3 class="pet-name">Cali</h3>
+                <p class="pet-details"> Medium Female Dog</p>
+                <p class="pet-tagline">Best Cuddle Buddy!</p>
+                <p class="pet-location"><span class="location-icon">📍</span> Unanderra, NSW</p>
+                <p class="adoption-note">Interstate adoption unavailable</p>
+            </div>
+        </article>
+
+        <article class="pet-card">
+            <img src="../img/pet-1.jpg" alt="Cali" class="pet-image">
+            <div class="pet-info">
+                <div class="heart-container"> <img src="../img/heart.png" class="heart-icon"></div>
+                <h3 class="pet-name">Cali</h3>
+                <p class="pet-details"> Medium Female Dog</p>
+                <p class="pet-tagline">Best Cuddle Buddy!</p>
+                <p class="pet-location"><span class="location-icon">📍</span> Unanderra, NSW</p>
+                <p class="adoption-note">Interstate adoption unavailable</p>
+            </div>
+        </article>
+
+        <article class="pet-card">
+            <img src="../img/pet-1.jpg" alt="Cali" class="pet-image">
+            <div class="pet-info">
+                <div class="heart-container"> <img src="../img/heart.png" class="heart-icon"></div>
+                <h3 class="pet-name">Cali</h3>
+                <p class="pet-details"> Medium Female Dog</p>
+                <p class="pet-tagline">Best Cuddle Buddy!</p>
+                <p class="pet-location"><span class="location-icon">📍</span> Unanderra, NSW</p>
+                <p class="adoption-note">Interstate adoption unavailable</p>
+            </div>
+        </article>
+        <article class="pet-card">
+            <img src="../img/pet-1.jpg" alt="Cali" class="pet-image">
+            <div class="pet-info">
+                <div class="heart-container"> <img src="../img/heart.png" class="heart-icon"></div>
+                <h3 class="pet-name">Cali</h3>
+                <p class="pet-details"> Medium Female Dog</p>
+                <p class="pet-tagline">Best Cuddle Buddy!</p>
+                <p class="pet-location"><span class="location-icon">📍</span> Unanderra, NSW</p>
+                <p class="adoption-note">Interstate adoption unavailable</p>
+            </div>
+        </article>
+        <article class="pet-card">
+            <img src="../img/pet-1.jpg" alt="Cali" class="pet-image">
+            <div class="pet-info">
+                <div class="heart-container"> <img src="../img/heart.png" class="heart-icon"></div>
+                <h3 class="pet-name">Cali</h3>
+                <p class="pet-details"> Medium Female Dog</p>
+                <p class="pet-tagline">Best Cuddle Buddy!</p>
+                <p class="pet-location"><span class="location-icon">📍</span> Unanderra, NSW</p>
+                <p class="adoption-note">Interstate adoption unavailable</p>
+            </div>
+        </article>
+        <article class="pet-card">
+            <img src="../img/pet-1.jpg" alt="Cali" class="pet-image">
+            <div class="pet-info">
+                <div class="heart-container"> <img src="../img/heart.png" class="heart-icon"></div>
+                <h3 class="pet-name">Cali</h3>
+                <p class="pet-details"> Medium Female Dog</p>
+                <p class="pet-tagline">Best Cuddle Buddy!</p>
+                <p class="pet-location"><span class="location-icon">📍</span> Unanderra, NSW</p>
+                <p class="adoption-note">Interstate adoption unavailable</p>
+            </div>
+        </article>
+    </div>
+
+    <div class="load-more">
+        <button>Load More</button>
+      </div>
+      
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <style> .footer{ top: 2500px;}</style>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+          </div>
+          <div class="social-media">
+            <p> Follow Us:</p>
+            <img src="../img/5296499_fb_facebook_facebook logo_icon.svg" class="fb-icon">
+            <img src="../img/5296514_bird_tweet_twitter_twitter logo_icon.png" class="tw-icon">
+            <img src="../img/5296765_camera_instagram_instagram logo_icon.svg" class="ig-icon">
+          </div>
+          <div class="cp">
+          &copy;2024  All rights reserved <br>
+          Feten Yahyaoui N°G 6/1|| Iheb Masmoudi N°G 5/1 || Dhia Eddine Manouchi N°G 2
+        </div>
+        <div class="feedback"> <p>Send feedback: <textarea name="fb" id="fb"></textarea></div>  <div class="fb-button"> <a class="send-fb">Send</a></p> </div>
+        </footer>
+          
+
+</body>
+</html>

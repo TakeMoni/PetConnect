@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In / Sign Up</title>
+  <link rel="icon" href="../img/Logo.png">
+  <link rel="stylesheet" href="../CSS/style-sign-up.css">
+  <script src="../JS/script.js"></script>
+</head>
+<body >
+  <div class="container">
+    <div class="form-box">
+      <div class="form-toggle">
+        <button id="toggle-signin" class="active">Se connecter</button>
+        <button id="toggle-signup">S'inscrire</button>
+      </div>
+      
+      <form id="signin-form" class="form active">
+        <h2>Se connecter</h2>
+        <div class="form-group">
+          <label for="signin-email">Adresse e-mail</label>
+          <input type="email" id="signin-email" placeholder="Entrez votre e-mail" required>
+        </div>
+        <div class="form-group">
+          <label for="signin-password">Mot de passe</label>
+          <input type="password" id="signin-password" placeholder="Entrez votre mot de passe" required>
+        </div>
+        <button type="submit" class="form-button">Connexion</button>
+      </form>
+      
+      <form id="signup-form" class="form">
+        <h2>S'inscrire</h2>
+        <div class="form-group">
+          <label for="signup-username">Nom d'utilisateur</label>
+          <input type="text" id="signup-username" placeholder="Entrez votre nom d'utilisateur" required>
+        </div>
+        <div class="form-group">
+          <label for="signup-email">Adresse e-mail</label>
+          <input type="email" id="signup-email" placeholder="Entrez votre e-mail" required>
+        </div>
+        <div class="form-group">
+          <label for="signup-password">Mot de passe</label>
+          <input type="password" id="signup-password" placeholder="Entrez votre mot de passe" required>
+        </div>
+        <div class="form-group">
+          <label for="signup-confirm-password">Confirmer le mot de passe</label>
+          <input type="password" id="signup-confirm-password" placeholder="Confirmez votre mot de passe" required>
+        </div>
+        <button type="submit" class="form-button">S'inscrire</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
